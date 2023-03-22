@@ -4,6 +4,9 @@
     <Filter Include="application">
       <UniqueIdentifier>{962881aa-1ccd-429e-84ea-3263fc217fc3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="presentations">
+      <UniqueIdentifier>{0d3a67a4-012f-4654-b1d3-ff0333530001}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp">
@@ -11,8 +14,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="application.h">
+    <ClInclude Include="application_library.h">
       <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="screens.h">
+      <Filter>presentations</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

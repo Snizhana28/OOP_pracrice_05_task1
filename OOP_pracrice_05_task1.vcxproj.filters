@@ -7,6 +7,15 @@
     <Filter Include="presentations">
       <UniqueIdentifier>{0d3a67a4-012f-4654-b1d3-ff0333530001}</UniqueIdentifier>
     </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{e87577cc-4431-4e9e-a90e-d2c10b04143c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\use_case">
+      <UniqueIdentifier>{0cd93e92-d9cc-44e8-8a16-62bcf7ac2913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\models">
+      <UniqueIdentifier>{0b97fb0b-baf8-4b50-b23e-6140f9ad0f11}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp">
@@ -19,6 +28,12 @@
     </ClInclude>
     <ClInclude Include="screens.h">
       <Filter>presentations</Filter>
+    </ClInclude>
+    <ClInclude Include="BookProvider.h">
+      <Filter>domain\use_case</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>domain\models</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

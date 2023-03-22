@@ -3,7 +3,7 @@
 
 class Book
 {
-public:
+private :
 
 	string avtor;
 	string name;
@@ -11,6 +11,8 @@ public:
 	int year;
 	int number_of_books;
 	int number_of_pages;
+
+public:
 
 	Book()
 	{
